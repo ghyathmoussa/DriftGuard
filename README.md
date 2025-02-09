@@ -65,9 +65,9 @@ To run the visualization dashboard, see the usage in `example.p`y script.
 
 ```python src/visualization/example.py```
 
-![Performance_Metrics](assets/image01/png)
+![Performance_Metrics](assets/image01.png)
 
-![Feature Drift 1](assets/image02/png)
+![Feature Drift 1](assets/image02.png)
 
-![Feature Drift 2](assets/image03/png)
+![Feature Drift 2](assets/image03.png)
 
