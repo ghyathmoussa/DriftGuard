@@ -250,3 +250,1323 @@ ValueError: No metrics available for comparison.
 2025-02-09 20:38:42,434 - 127.0.0.1 - - [09/Feb/2025 20:38:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
 2025-02-09 20:38:42,473 - 127.0.0.1 - - [09/Feb/2025 20:38:42] "POST /_dash-update-component HTTP/1.1" 200 -
 2025-02-09 20:38:46,139 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.5625858585858586, 'recall': 0.56, 'f1_score': 0.5610714285714284, 'roc_auc': 0.4838841289269686, 'timestamp': datetime.datetime(2025, 2, 9, 20, 38, 46, 139337)}
+2025-02-09 21:18:09,405 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.5714975845410628, 'recall': 0.56, 'f1_score': 0.5637698898408813, 'roc_auc': 0.5054166666666666, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 405641)}
+2025-02-09 21:18:09,409 - Environment: production, Metrics: {'accuracy': 0.62, 'precision': 0.6211044417767106, 'recall': 0.62, 'f1_score': 0.6203044871794872, 'roc_auc': 0.5010036130068246, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 409533)}
+2025-02-09 21:18:09,413 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.49586538461538465, 'recall': 0.48, 'f1_score': 0.4831312725812926, 'roc_auc': 0.5316091954022989, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 413135)}
+2025-02-09 21:18:09,416 - Environment: production, Metrics: {'accuracy': 0.44, 'precision': 0.4481666666666666, 'recall': 0.44, 'f1_score': 0.43527900441589723, 'roc_auc': 0.49476650563607083, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 416851)}
+2025-02-09 21:18:09,420 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.56, 'recall': 0.56, 'f1_score': 0.56, 'roc_auc': 0.46354166666666663, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 420701)}
+2025-02-09 21:18:09,424 - Environment: production, Metrics: {'accuracy': 0.54, 'precision': 0.5447414880201765, 'recall': 0.54, 'f1_score': 0.5344242424242425, 'roc_auc': 0.5530212084833933, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 424642)}
+2025-02-09 21:18:09,428 - Environment: production, Metrics: {'accuracy': 0.45, 'precision': 0.47019230769230774, 'recall': 0.45, 'f1_score': 0.4565456209948123, 'roc_auc': 0.3757881462799496, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 428553)}
+2025-02-09 21:18:09,432 - Environment: production, Metrics: {'accuracy': 0.45, 'precision': 0.4499799919967987, 'recall': 0.45, 'f1_score': 0.44994499449944997, 'roc_auc': 0.442, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 432426)}
+2025-02-09 21:18:09,436 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.4918767507002801, 'recall': 0.47, 'f1_score': 0.475289847766912, 'roc_auc': 0.5025, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 436465)}
+2025-02-09 21:18:09,440 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.529823717948718, 'recall': 0.53, 'f1_score': 0.5298588729856871, 'roc_auc': 0.43057222889155666, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 440197)}
+2025-02-09 21:18:09,446 - Dash is running on http://0.0.0.0:8050/
+
+2025-02-09 21:18:09,453 - Environment: production, Metrics: {'accuracy': 0.59, 'precision': 0.6070933977455717, 'recall': 0.59, 'f1_score': 0.5913542187969173, 'roc_auc': 0.5977152182782538, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 9, 453798)}
+2025-02-09 21:18:09,459 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://172.27.228.215:8050
+2025-02-09 21:18:09,460 - [33mPress CTRL+C to quit[0m
+2025-02-09 21:18:14,465 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5012004801920769, 'recall': 0.5, 'f1_score': 0.500400641025641, 'roc_auc': 0.5098354074668807, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 14, 465457)}
+2025-02-09 21:18:18,303 - 127.0.0.1 - - [09/Feb/2025 21:18:18] "GET / HTTP/1.1" 200 -
+2025-02-09 21:18:19,200 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "GET /_dash-layout HTTP/1.1" 200 -
+2025-02-09 21:18:19,201 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-02-09 21:18:19,223 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "GET /_favicon.ico?v=2.11.1 HTTP/1.1" 200 -
+2025-02-09 21:18:19,235 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-02-09 21:18:19,243 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "[36mGET /_dash-component-suites/dash/dcc/async-plotlyjs.js HTTP/1.1[0m" 304 -
+2025-02-09 21:18:19,287 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:19,309 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:19,319 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:19,324 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:19,480 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.48403361344537815, 'recall': 0.48, 'f1_score': 0.48125250903251704, 'roc_auc': 0.5838383838383838, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 19, 480604)}
+2025-02-09 21:18:19,919 - 127.0.0.1 - - [09/Feb/2025 21:18:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:24,491 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.46, 'recall': 0.46, 'f1_score': 0.46, 'roc_auc': 0.5066026410564226, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 24, 491751)}
+2025-02-09 21:18:24,690 - 127.0.0.1 - - [09/Feb/2025 21:18:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:24,693 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:24,699 - 127.0.0.1 - - [09/Feb/2025 21:18:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:24,728 - 127.0.0.1 - - [09/Feb/2025 21:18:24] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:24,737 - 127.0.0.1 - - [09/Feb/2025 21:18:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:29,502 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5016025641025641, 'recall': 0.5, 'f1_score': 0.5, 'roc_auc': 0.5965544871794872, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 29, 502397)}
+2025-02-09 21:18:29,710 - 127.0.0.1 - - [09/Feb/2025 21:18:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:29,712 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:29,717 - 127.0.0.1 - - [09/Feb/2025 21:18:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:29,729 - 127.0.0.1 - - [09/Feb/2025 21:18:29] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:29,760 - 127.0.0.1 - - [09/Feb/2025 21:18:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:34,517 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.530108390204737, 'recall': 0.53, 'f1_score': 0.5295766189570613, 'roc_auc': 0.47959999999999997, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 34, 517371)}
+2025-02-09 21:18:35,092 - 127.0.0.1 - - [09/Feb/2025 21:18:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:35,097 - 127.0.0.1 - - [09/Feb/2025 21:18:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:35,100 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:35,112 - 127.0.0.1 - - [09/Feb/2025 21:18:35] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:35,146 - 127.0.0.1 - - [09/Feb/2025 21:18:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:39,533 - Environment: production, Metrics: {'accuracy': 0.49, 'precision': 0.4936491368928141, 'recall': 0.49, 'f1_score': 0.4913882447827402, 'roc_auc': 0.5142045454545454, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 39, 533655)}
+2025-02-09 21:18:40,136 - 127.0.0.1 - - [09/Feb/2025 21:18:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:40,140 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:40,153 - 127.0.0.1 - - [09/Feb/2025 21:18:40] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:40,169 - 127.0.0.1 - - [09/Feb/2025 21:18:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:40,215 - 127.0.0.1 - - [09/Feb/2025 21:18:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:44,548 - Environment: production, Metrics: {'accuracy': 0.58, 'precision': 0.591304347826087, 'recall': 0.58, 'f1_score': 0.5835985312117503, 'roc_auc': 0.4229166666666667, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 44, 548940)}
+2025-02-09 21:18:45,248 - 127.0.0.1 - - [09/Feb/2025 21:18:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:45,253 - 127.0.0.1 - - [09/Feb/2025 21:18:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:45,254 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:45,279 - 127.0.0.1 - - [09/Feb/2025 21:18:45] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:45,293 - 127.0.0.1 - - [09/Feb/2025 21:18:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:49,560 - Environment: production, Metrics: {'accuracy': 0.51, 'precision': 0.5091071428571429, 'recall': 0.51, 'f1_score': 0.5082765551200884, 'roc_auc': 0.5538215286114445, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 49, 560899)}
+2025-02-09 21:18:50,278 - 127.0.0.1 - - [09/Feb/2025 21:18:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:50,289 - 127.0.0.1 - - [09/Feb/2025 21:18:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:50,296 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:50,331 - 127.0.0.1 - - [09/Feb/2025 21:18:50] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:50,343 - 127.0.0.1 - - [09/Feb/2025 21:18:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:54,574 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.4795503813729426, 'recall': 0.48, 'f1_score': 0.4795833333333333, 'roc_auc': 0.5966386554621849, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 54, 574430)}
+2025-02-09 21:18:56,543 - 127.0.0.1 - - [09/Feb/2025 21:18:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:56,546 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:18:56,551 - 127.0.0.1 - - [09/Feb/2025 21:18:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:56,552 - 127.0.0.1 - - [09/Feb/2025 21:18:56] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:18:56,594 - 127.0.0.1 - - [09/Feb/2025 21:18:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:18:59,591 - Environment: production, Metrics: {'accuracy': 0.6, 'precision': 0.6024242424242425, 'recall': 0.6, 'f1_score': 0.6009740259740259, 'roc_auc': 0.5287637698898409, 'timestamp': datetime.datetime(2025, 2, 9, 21, 18, 59, 591402)}
+2025-02-09 21:19:01,310 - 127.0.0.1 - - [09/Feb/2025 21:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:01,312 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:01,324 - 127.0.0.1 - - [09/Feb/2025 21:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:01,338 - 127.0.0.1 - - [09/Feb/2025 21:19:01] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:01,353 - 127.0.0.1 - - [09/Feb/2025 21:19:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:04,601 - Environment: production, Metrics: {'accuracy': 0.54, 'precision': 0.5404321728691477, 'recall': 0.54, 'f1_score': 0.54, 'roc_auc': 0.5742296918767507, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 4, 601131)}
+2025-02-09 21:19:06,295 - 127.0.0.1 - - [09/Feb/2025 21:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:06,298 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:06,305 - 127.0.0.1 - - [09/Feb/2025 21:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:06,338 - 127.0.0.1 - - [09/Feb/2025 21:19:06] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:06,348 - 127.0.0.1 - - [09/Feb/2025 21:19:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:09,611 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.49959855479727017, 'recall': 0.5, 'f1_score': 0.499599358974359, 'roc_auc': 0.48859543817527007, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 9, 611276)}
+2025-02-09 21:19:11,304 - 127.0.0.1 - - [09/Feb/2025 21:19:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:11,306 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:11,314 - 127.0.0.1 - - [09/Feb/2025 21:19:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:11,320 - 127.0.0.1 - - [09/Feb/2025 21:19:11] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:11,366 - 127.0.0.1 - - [09/Feb/2025 21:19:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:14,622 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.46592592592592597, 'recall': 0.46, 'f1_score': 0.46, 'roc_auc': 0.5772946859903382, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 14, 622245)}
+2025-02-09 21:19:16,323 - 127.0.0.1 - - [09/Feb/2025 21:19:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:16,325 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:16,334 - 127.0.0.1 - - [09/Feb/2025 21:19:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:16,339 - 127.0.0.1 - - [09/Feb/2025 21:19:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:16,377 - 127.0.0.1 - - [09/Feb/2025 21:19:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:19,631 - Environment: production, Metrics: {'accuracy': 0.38, 'precision': 0.37822222222222224, 'recall': 0.38, 'f1_score': 0.3785066238458451, 'roc_auc': 0.4497799119647859, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 19, 630975)}
+2025-02-09 21:19:21,330 - 127.0.0.1 - - [09/Feb/2025 21:19:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:21,332 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:21,341 - 127.0.0.1 - - [09/Feb/2025 21:19:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:21,381 - 127.0.0.1 - - [09/Feb/2025 21:19:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:21,382 - 127.0.0.1 - - [09/Feb/2025 21:19:21] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:24,638 - Environment: production, Metrics: {'accuracy': 0.45, 'precision': 0.46620000000000006, 'recall': 0.45, 'f1_score': 0.45449138017945356, 'roc_auc': 0.52087639520463, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 24, 638086)}
+2025-02-09 21:19:26,339 - 127.0.0.1 - - [09/Feb/2025 21:19:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:26,341 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:26,348 - 127.0.0.1 - - [09/Feb/2025 21:19:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:26,367 - 127.0.0.1 - - [09/Feb/2025 21:19:26] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:26,388 - 127.0.0.1 - - [09/Feb/2025 21:19:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:29,644 - Environment: production, Metrics: {'accuracy': 0.52, 'precision': 0.5328, 'recall': 0.52, 'f1_score': 0.5230917874396135, 'roc_auc': 0.5057471264367815, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 29, 644913)}
+2025-02-09 21:19:31,367 - 127.0.0.1 - - [09/Feb/2025 21:19:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:31,369 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:31,375 - 127.0.0.1 - - [09/Feb/2025 21:19:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:31,411 - 127.0.0.1 - - [09/Feb/2025 21:19:31] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:31,414 - 127.0.0.1 - - [09/Feb/2025 21:19:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:34,658 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.46, 'recall': 0.46, 'f1_score': 0.46, 'roc_auc': 0.39814814814814814, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 34, 658171)}
+2025-02-09 21:19:36,395 - 127.0.0.1 - - [09/Feb/2025 21:19:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:36,400 - 127.0.0.1 - - [09/Feb/2025 21:19:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:36,403 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:36,418 - 127.0.0.1 - - [09/Feb/2025 21:19:36] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:36,464 - 127.0.0.1 - - [09/Feb/2025 21:19:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:39,670 - Environment: production, Metrics: {'accuracy': 0.57, 'precision': 0.5785994397759103, 'recall': 0.57, 'f1_score': 0.5715087719298246, 'roc_auc': 0.4732142857142857, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 39, 670294)}
+2025-02-09 21:19:41,884 - 127.0.0.1 - - [09/Feb/2025 21:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:41,886 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:41,896 - 127.0.0.1 - - [09/Feb/2025 21:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:41,917 - 127.0.0.1 - - [09/Feb/2025 21:19:41] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:41,935 - 127.0.0.1 - - [09/Feb/2025 21:19:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:44,680 - Environment: production, Metrics: {'accuracy': 0.54, 'precision': 0.5494230769230769, 'recall': 0.54, 'f1_score': 0.5427878787878788, 'roc_auc': 0.5086206896551724, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 44, 680474)}
+2025-02-09 21:19:46,904 - 127.0.0.1 - - [09/Feb/2025 21:19:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:46,906 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:46,920 - 127.0.0.1 - - [09/Feb/2025 21:19:46] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:46,921 - 127.0.0.1 - - [09/Feb/2025 21:19:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:46,957 - 127.0.0.1 - - [09/Feb/2025 21:19:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:49,693 - Environment: production, Metrics: {'accuracy': 0.55, 'precision': 0.5556915544675642, 'recall': 0.55, 'f1_score': 0.5523632993512512, 'roc_auc': 0.3920833333333333, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 49, 693282)}
+2025-02-09 21:19:51,904 - 127.0.0.1 - - [09/Feb/2025 21:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:51,906 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:51,912 - 127.0.0.1 - - [09/Feb/2025 21:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:51,935 - 127.0.0.1 - - [09/Feb/2025 21:19:51] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:51,960 - 127.0.0.1 - - [09/Feb/2025 21:19:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:54,710 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.5394927536231884, 'recall': 0.53, 'f1_score': 0.5304230423042304, 'roc_auc': 0.4492929292929292, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 54, 710274)}
+2025-02-09 21:19:56,704 - 127.0.0.1 - - [09/Feb/2025 21:19:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:56,707 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:19:56,716 - 127.0.0.1 - - [09/Feb/2025 21:19:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:56,724 - 127.0.0.1 - - [09/Feb/2025 21:19:56] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:19:56,765 - 127.0.0.1 - - [09/Feb/2025 21:19:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:19:59,722 - Environment: production, Metrics: {'accuracy': 0.45, 'precision': 0.45438311688311683, 'recall': 0.45, 'f1_score': 0.4485136622960665, 'roc_auc': 0.3677238057005219, 'timestamp': datetime.datetime(2025, 2, 9, 21, 19, 59, 722611)}
+2025-02-09 21:20:02,685 - 127.0.0.1 - - [09/Feb/2025 21:20:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:02,695 - 127.0.0.1 - - [09/Feb/2025 21:20:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:02,707 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:02,739 - 127.0.0.1 - - [09/Feb/2025 21:20:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:02,758 - 127.0.0.1 - - [09/Feb/2025 21:20:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:04,734 - Environment: production, Metrics: {'accuracy': 0.43, 'precision': 0.4667787114845938, 'recall': 0.43, 'f1_score': 0.44137084398976983, 'roc_auc': 0.4635416666666667, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 4, 734295)}
+2025-02-09 21:20:06,966 - 127.0.0.1 - - [09/Feb/2025 21:20:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:06,999 - 127.0.0.1 - - [09/Feb/2025 21:20:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:07,002 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:07,035 - 127.0.0.1 - - [09/Feb/2025 21:20:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:07,037 - 127.0.0.1 - - [09/Feb/2025 21:20:07] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:09,745 - Environment: production, Metrics: {'accuracy': 0.54, 'precision': 0.5408000000000001, 'recall': 0.54, 'f1_score': 0.5401840736294519, 'roc_auc': 0.4559294871794871, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 9, 745498)}
+2025-02-09 21:20:11,928 - 127.0.0.1 - - [09/Feb/2025 21:20:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:11,945 - 127.0.0.1 - - [09/Feb/2025 21:20:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:11,950 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:11,982 - 127.0.0.1 - - [09/Feb/2025 21:20:11] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:11,986 - 127.0.0.1 - - [09/Feb/2025 21:20:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:14,751 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5, 'recall': 0.5, 'f1_score': 0.4967793880837359, 'roc_auc': 0.5016, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 14, 751955)}
+2025-02-09 21:20:16,924 - 127.0.0.1 - - [09/Feb/2025 21:20:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:16,934 - 127.0.0.1 - - [09/Feb/2025 21:20:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:16,949 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:16,978 - 127.0.0.1 - - [09/Feb/2025 21:20:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:16,979 - 127.0.0.1 - - [09/Feb/2025 21:20:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:19,762 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.4820607553366174, 'recall': 0.47, 'f1_score': 0.4679311380242218, 'roc_auc': 0.38181818181818183, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 19, 762577)}
+2025-02-09 21:20:21,940 - 127.0.0.1 - - [09/Feb/2025 21:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:21,950 - 127.0.0.1 - - [09/Feb/2025 21:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:21,959 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:21,991 - 127.0.0.1 - - [09/Feb/2025 21:20:21] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:21,994 - 127.0.0.1 - - [09/Feb/2025 21:20:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:24,773 - Environment: production, Metrics: {'accuracy': 0.43, 'precision': 0.432484993997599, 'recall': 0.43, 'f1_score': 0.4308571428571429, 'roc_auc': 0.44041867954911434, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 24, 773768)}
+2025-02-09 21:20:26,949 - 127.0.0.1 - - [09/Feb/2025 21:20:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:26,954 - 127.0.0.1 - - [09/Feb/2025 21:20:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:26,959 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:26,994 - 127.0.0.1 - - [09/Feb/2025 21:20:26] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:26,995 - 127.0.0.1 - - [09/Feb/2025 21:20:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:29,786 - Environment: production, Metrics: {'accuracy': 0.54, 'precision': 0.5446794871794872, 'recall': 0.54, 'f1_score': 0.5414814814814815, 'roc_auc': 0.40422077922077926, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 29, 786071)}
+2025-02-09 21:20:31,959 - 127.0.0.1 - - [09/Feb/2025 21:20:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:31,973 - 127.0.0.1 - - [09/Feb/2025 21:20:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:31,976 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:32,014 - 127.0.0.1 - - [09/Feb/2025 21:20:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:32,015 - 127.0.0.1 - - [09/Feb/2025 21:20:32] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:34,797 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5048076923076923, 'recall': 0.5, 'f1_score': 0.5006002400960383, 'roc_auc': 0.38647342995169087, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 34, 797081)}
+2025-02-09 21:20:36,987 - 127.0.0.1 - - [09/Feb/2025 21:20:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:36,990 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:36,999 - 127.0.0.1 - - [09/Feb/2025 21:20:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:37,002 - 127.0.0.1 - - [09/Feb/2025 21:20:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:37,058 - 127.0.0.1 - - [09/Feb/2025 21:20:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:39,808 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.49837662337662336, 'recall': 0.5, 'f1_score': 0.498989898989899, 'roc_auc': 0.501207729468599, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 39, 808261)}
+2025-02-09 21:20:41,998 - 127.0.0.1 - - [09/Feb/2025 21:20:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:42,000 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:42,010 - 127.0.0.1 - - [09/Feb/2025 21:20:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:42,018 - 127.0.0.1 - - [09/Feb/2025 21:20:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:42,054 - 127.0.0.1 - - [09/Feb/2025 21:20:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:44,822 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.5384873949579831, 'recall': 0.53, 'f1_score': 0.5316491228070176, 'roc_auc': 0.5296266233766234, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 44, 822376)}
+2025-02-09 21:20:47,008 - 127.0.0.1 - - [09/Feb/2025 21:20:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:47,018 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:47,022 - 127.0.0.1 - - [09/Feb/2025 21:20:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:47,040 - 127.0.0.1 - - [09/Feb/2025 21:20:47] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:47,059 - 127.0.0.1 - - [09/Feb/2025 21:20:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:49,839 - Environment: production, Metrics: {'accuracy': 0.44, 'precision': 0.44, 'recall': 0.44, 'f1_score': 0.44, 'roc_auc': 0.5748, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 49, 839195)}
+2025-02-09 21:20:51,985 - 127.0.0.1 - - [09/Feb/2025 21:20:51] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:52,000 - 127.0.0.1 - - [09/Feb/2025 21:20:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:52,002 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:52,020 - 127.0.0.1 - - [09/Feb/2025 21:20:52] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:52,041 - 127.0.0.1 - - [09/Feb/2025 21:20:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:54,849 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.5303030303030303, 'recall': 0.53, 'f1_score': 0.5288220551378447, 'roc_auc': 0.41919999999999996, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 54, 849108)}
+2025-02-09 21:20:57,000 - 127.0.0.1 - - [09/Feb/2025 21:20:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:57,007 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:20:57,044 - 127.0.0.1 - - [09/Feb/2025 21:20:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:57,045 - 127.0.0.1 - - [09/Feb/2025 21:20:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:20:57,046 - 127.0.0.1 - - [09/Feb/2025 21:20:57] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:20:59,859 - Environment: production, Metrics: {'accuracy': 0.55, 'precision': 0.5539855072463769, 'recall': 0.55, 'f1_score': 0.5515031885818403, 'roc_auc': 0.5540595675234598, 'timestamp': datetime.datetime(2025, 2, 9, 21, 20, 59, 859733)}
+2025-02-09 21:21:02,016 - 127.0.0.1 - - [09/Feb/2025 21:21:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:02,023 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:02,031 - 127.0.0.1 - - [09/Feb/2025 21:21:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:02,033 - 127.0.0.1 - - [09/Feb/2025 21:21:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:02,066 - 127.0.0.1 - - [09/Feb/2025 21:21:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:04,871 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.4537181663837012, 'recall': 0.46, 'f1_score': 0.4522888616891065, 'roc_auc': 0.5689102564102564, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 4, 871276)}
+2025-02-09 21:21:06,100 - 127.0.0.1 - - [09/Feb/2025 21:21:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:06,103 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:06,108 - 127.0.0.1 - - [09/Feb/2025 21:21:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:06,116 - 127.0.0.1 - - [09/Feb/2025 21:21:06] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:06,156 - 127.0.0.1 - - [09/Feb/2025 21:21:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:09,882 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.46998799519807916, 'recall': 0.47, 'f1_score': 0.46994699469946993, 'roc_auc': 0.5344, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 9, 882848)}
+2025-02-09 21:21:12,106 - 127.0.0.1 - - [09/Feb/2025 21:21:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:12,121 - 127.0.0.1 - - [09/Feb/2025 21:21:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:12,159 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:12,170 - 127.0.0.1 - - [09/Feb/2025 21:21:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:12,171 - 127.0.0.1 - - [09/Feb/2025 21:21:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:14,893 - Environment: production, Metrics: {'accuracy': 0.55, 'precision': 0.5522727272727274, 'recall': 0.55, 'f1_score': 0.5484210526315789, 'roc_auc': 0.4837935174069628, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 14, 893253)}
+2025-02-09 21:21:16,866 - 127.0.0.1 - - [09/Feb/2025 21:21:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:16,871 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:16,878 - 127.0.0.1 - - [09/Feb/2025 21:21:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:16,892 - 127.0.0.1 - - [09/Feb/2025 21:21:16] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:16,948 - 127.0.0.1 - - [09/Feb/2025 21:21:16] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:19,907 - Environment: production, Metrics: {'accuracy': 0.51, 'precision': 0.5092121212121212, 'recall': 0.51, 'f1_score': 0.5095553987297108, 'roc_auc': 0.5599838969404187, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 19, 907610)}
+2025-02-09 21:21:21,112 - 127.0.0.1 - - [09/Feb/2025 21:21:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:21,116 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:21,121 - 127.0.0.1 - - [09/Feb/2025 21:21:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:21,137 - 127.0.0.1 - - [09/Feb/2025 21:21:21] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:21,158 - 127.0.0.1 - - [09/Feb/2025 21:21:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:24,919 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5, 'recall': 0.5, 'f1_score': 0.49919871794871795, 'roc_auc': 0.496, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 24, 919120)}
+2025-02-09 21:21:27,114 - 127.0.0.1 - - [09/Feb/2025 21:21:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:27,118 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:27,128 - 127.0.0.1 - - [09/Feb/2025 21:21:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:27,134 - 127.0.0.1 - - [09/Feb/2025 21:21:27] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:27,176 - 127.0.0.1 - - [09/Feb/2025 21:21:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:29,929 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.5587192118226602, 'recall': 0.56, 'f1_score': 0.5573333333333333, 'roc_auc': 0.49639423076923084, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 29, 929493)}
+2025-02-09 21:21:32,125 - 127.0.0.1 - - [09/Feb/2025 21:21:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:32,128 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:32,134 - 127.0.0.1 - - [09/Feb/2025 21:21:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:32,158 - 127.0.0.1 - - [09/Feb/2025 21:21:32] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:32,176 - 127.0.0.1 - - [09/Feb/2025 21:21:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:34,946 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.5332525252525252, 'recall': 0.53, 'f1_score': 0.5290121108998097, 'roc_auc': 0.5124198717948718, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 34, 946510)}
+2025-02-09 21:21:37,138 - 127.0.0.1 - - [09/Feb/2025 21:21:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:37,141 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:37,152 - 127.0.0.1 - - [09/Feb/2025 21:21:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:37,157 - 127.0.0.1 - - [09/Feb/2025 21:21:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:37,194 - 127.0.0.1 - - [09/Feb/2025 21:21:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:39,959 - Environment: production, Metrics: {'accuracy': 0.43, 'precision': 0.4262315270935961, 'recall': 0.43, 'f1_score': 0.4277387854745194, 'roc_auc': 0.49656565656565654, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 39, 959855)}
+2025-02-09 21:21:42,147 - 127.0.0.1 - - [09/Feb/2025 21:21:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:42,149 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:42,155 - 127.0.0.1 - - [09/Feb/2025 21:21:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:42,190 - 127.0.0.1 - - [09/Feb/2025 21:21:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:42,196 - 127.0.0.1 - - [09/Feb/2025 21:21:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:44,977 - Environment: production, Metrics: {'accuracy': 0.52, 'precision': 0.5251717171717172, 'recall': 0.52, 'f1_score': 0.5192316926770708, 'roc_auc': 0.4504215174628663, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 44, 977148)}
+2025-02-09 21:21:47,463 - 127.0.0.1 - - [09/Feb/2025 21:21:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:47,467 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:47,474 - 127.0.0.1 - - [09/Feb/2025 21:21:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:47,503 - 127.0.0.1 - - [09/Feb/2025 21:21:47] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:47,514 - 127.0.0.1 - - [09/Feb/2025 21:21:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:49,991 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.47453381352541024, 'recall': 0.46, 'f1_score': 0.46436363636363637, 'roc_auc': 0.5179826374534933, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 49, 991107)}
+2025-02-09 21:21:52,494 - 127.0.0.1 - - [09/Feb/2025 21:21:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:52,497 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:52,510 - 127.0.0.1 - - [09/Feb/2025 21:21:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:52,531 - 127.0.0.1 - - [09/Feb/2025 21:21:52] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:52,540 - 127.0.0.1 - - [09/Feb/2025 21:21:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:55,005 - Environment: production, Metrics: {'accuracy': 0.44, 'precision': 0.45816425120772947, 'recall': 0.44, 'f1_score': 0.44269230769230766, 'roc_auc': 0.4688013136288998, 'timestamp': datetime.datetime(2025, 2, 9, 21, 21, 55, 5715)}
+2025-02-09 21:21:57,508 - 127.0.0.1 - - [09/Feb/2025 21:21:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:57,510 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:21:57,515 - 127.0.0.1 - - [09/Feb/2025 21:21:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:21:57,545 - 127.0.0.1 - - [09/Feb/2025 21:21:57] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:21:57,553 - 127.0.0.1 - - [09/Feb/2025 21:21:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:00,014 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.5300120048019208, 'recall': 0.53, 'f1_score': 0.52995299529953, 'roc_auc': 0.44600000000000006, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 0, 14747)}
+2025-02-09 21:22:02,533 - 127.0.0.1 - - [09/Feb/2025 21:22:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:02,535 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:02,540 - 127.0.0.1 - - [09/Feb/2025 21:22:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:02,548 - 127.0.0.1 - - [09/Feb/2025 21:22:02] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:02,581 - 127.0.0.1 - - [09/Feb/2025 21:22:02] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:05,025 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.4815384615384615, 'recall': 0.48, 'f1_score': 0.48, 'roc_auc': 0.47996794871794873, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 5, 25772)}
+2025-02-09 21:22:07,548 - 127.0.0.1 - - [09/Feb/2025 21:22:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:07,551 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:07,560 - 127.0.0.1 - - [09/Feb/2025 21:22:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:07,578 - 127.0.0.1 - - [09/Feb/2025 21:22:07] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:07,592 - 127.0.0.1 - - [09/Feb/2025 21:22:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:10,037 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.4702, 'recall': 0.47, 'f1_score': 0.47005300530053007, 'roc_auc': 0.4553821528611445, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 10, 37780)}
+2025-02-09 21:22:12,570 - 127.0.0.1 - - [09/Feb/2025 21:22:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:12,573 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:12,581 - 127.0.0.1 - - [09/Feb/2025 21:22:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:12,615 - 127.0.0.1 - - [09/Feb/2025 21:22:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:12,616 - 127.0.0.1 - - [09/Feb/2025 21:22:12] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:15,054 - Environment: production, Metrics: {'accuracy': 0.49, 'precision': 0.49866177070583434, 'recall': 0.49, 'f1_score': 0.48831548393554186, 'roc_auc': 0.6010466988727858, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 15, 54585)}
+2025-02-09 21:22:17,592 - 127.0.0.1 - - [09/Feb/2025 21:22:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:17,594 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:17,602 - 127.0.0.1 - - [09/Feb/2025 21:22:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:17,620 - 127.0.0.1 - - [09/Feb/2025 21:22:17] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:17,635 - 127.0.0.1 - - [09/Feb/2025 21:22:17] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:20,071 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5, 'recall': 0.5, 'f1_score': 0.5, 'roc_auc': 0.5612203934162987, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 20, 71535)}
+2025-02-09 21:22:22,599 - 127.0.0.1 - - [09/Feb/2025 21:22:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:22,602 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:22,607 - 127.0.0.1 - - [09/Feb/2025 21:22:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:22,640 - 127.0.0.1 - - [09/Feb/2025 21:22:22] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:22,645 - 127.0.0.1 - - [09/Feb/2025 21:22:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:25,088 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.4777511368334022, 'recall': 0.48, 'f1_score': 0.4757979797979797, 'roc_auc': 0.45378151260504207, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 25, 88596)}
+2025-02-09 21:22:27,587 - 127.0.0.1 - - [09/Feb/2025 21:22:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:27,591 - 127.0.0.1 - - [09/Feb/2025 21:22:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:27,595 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:27,627 - 127.0.0.1 - - [09/Feb/2025 21:22:27] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:27,635 - 127.0.0.1 - - [09/Feb/2025 21:22:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:30,105 - Environment: production, Metrics: {'accuracy': 0.52, 'precision': 0.5196467282215977, 'recall': 0.52, 'f1_score': 0.5196153846153846, 'roc_auc': 0.42016806722689076, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 30, 105530)}
+2025-02-09 21:22:32,539 - 127.0.0.1 - - [09/Feb/2025 21:22:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:32,546 - 127.0.0.1 - - [09/Feb/2025 21:22:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:32,547 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:32,585 - 127.0.0.1 - - [09/Feb/2025 21:22:32] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:32,588 - 127.0.0.1 - - [09/Feb/2025 21:22:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:35,117 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.48, 'recall': 0.48, 'f1_score': 0.48, 'roc_auc': 0.486, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 35, 117191)}
+2025-02-09 21:22:37,551 - 127.0.0.1 - - [09/Feb/2025 21:22:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:37,554 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:37,562 - 127.0.0.1 - - [09/Feb/2025 21:22:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:37,581 - 127.0.0.1 - - [09/Feb/2025 21:22:37] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:37,600 - 127.0.0.1 - - [09/Feb/2025 21:22:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:40,131 - Environment: production, Metrics: {'accuracy': 0.59, 'precision': 0.5998, 'recall': 0.59, 'f1_score': 0.5920188925736106, 'roc_auc': 0.5430436556507547, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 40, 131003)}
+2025-02-09 21:22:42,557 - 127.0.0.1 - - [09/Feb/2025 21:22:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:42,562 - 127.0.0.1 - - [09/Feb/2025 21:22:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:42,565 - Exception on /_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ghyath/.local/lib/python3.10/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/dash.py", line 1265, in dispatch
+    ctx.run(
+  File "/home/ghyath/.local/lib/python3.10/site-packages/dash/_callback.py", line 450, in add_context
+    output_value = func(*func_args, **func_kwargs)  # %% callback invoked %%
+  File "/mnt/d/projects/mlops/ml_monitoring/src/visualization/dashboard.py", line 119, in plot_performance_comparison
+    comparison = self.performance_monitor.compare_performance()
+  File "/mnt/d/projects/mlops/ml_monitoring/src/monitoring/monitoring.py", line 81, in compare_performance
+    raise ValueError("No metrics available for comparison.")
+ValueError: No metrics available for comparison.
+2025-02-09 21:22:42,602 - 127.0.0.1 - - [09/Feb/2025 21:22:42] "[35m[1mPOST /_dash-update-component HTTP/1.1[0m" 500 -
+2025-02-09 21:22:42,635 - 127.0.0.1 - - [09/Feb/2025 21:22:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-02-09 21:22:45,143 - Environment: production, Metrics: {'accuracy': 0.57, 'precision': 0.5665, 'recall': 0.57, 'f1_score': 0.5677417361754712, 'roc_auc': 0.46430028559771525, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 45, 143934)}
+2025-02-09 21:22:50,158 - Environment: production, Metrics: {'accuracy': 0.55, 'precision': 0.5547906602254429, 'recall': 0.55, 'f1_score': 0.5496849684968496, 'roc_auc': 0.6214371738257727, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 50, 158366)}
+2025-02-09 21:22:55,169 - Environment: production, Metrics: {'accuracy': 0.49, 'precision': 0.535, 'recall': 0.49, 'f1_score': 0.5017391304347825, 'roc_auc': 0.48483516483516487, 'timestamp': datetime.datetime(2025, 2, 9, 21, 22, 55, 169124)}
+2025-02-09 21:23:00,181 - Environment: production, Metrics: {'accuracy': 0.57, 'precision': 0.5676108374384237, 'recall': 0.57, 'f1_score': 0.5682941714983216, 'roc_auc': 0.5284848484848484, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 0, 181132)}
+2025-02-09 21:23:05,191 - Environment: production, Metrics: {'accuracy': 0.51, 'precision': 0.5107908470493777, 'recall': 0.51, 'f1_score': 0.5103446889759823, 'roc_auc': 0.46779388083735907, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 5, 191448)}
+2025-02-09 21:23:10,204 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.558961038961039, 'recall': 0.56, 'f1_score': 0.5585829307568438, 'roc_auc': 0.5765224358974358, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 10, 204341)}
+2025-02-09 21:23:15,216 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.49532258064516127, 'recall': 0.47, 'f1_score': 0.46495238095238095, 'roc_auc': 0.5316197470420236, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 15, 216838)}
+2025-02-09 21:23:20,230 - Environment: production, Metrics: {'accuracy': 0.56, 'precision': 0.5624969987995198, 'recall': 0.56, 'f1_score': 0.5603521408563426, 'roc_auc': 0.5929345644319551, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 20, 230149)}
+2025-02-09 21:23:25,245 - Environment: production, Metrics: {'accuracy': 0.43, 'precision': 0.436, 'recall': 0.43, 'f1_score': 0.4294869486948695, 'roc_auc': 0.5185185185185186, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 25, 245834)}
+2025-02-09 21:23:30,260 - Environment: production, Metrics: {'accuracy': 0.42, 'precision': 0.42, 'recall': 0.42, 'f1_score': 0.42, 'roc_auc': 0.47315705128205127, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 30, 260553)}
+2025-02-09 21:23:35,270 - Environment: production, Metrics: {'accuracy': 0.47, 'precision': 0.467531619747042, 'recall': 0.47, 'f1_score': 0.46759552374231267, 'roc_auc': 0.547275641025641, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 35, 270416)}
+2025-02-09 21:23:40,280 - Environment: production, Metrics: {'accuracy': 0.5, 'precision': 0.5020072260136491, 'recall': 0.5, 'f1_score': 0.500805152979066, 'roc_auc': 0.5345454545454545, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 40, 280404)}
+2025-02-09 21:23:45,295 - Environment: production, Metrics: {'accuracy': 0.42, 'precision': 0.4217307692307692, 'recall': 0.42, 'f1_score': 0.42069851465274993, 'roc_auc': 0.5128824476650563, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 45, 295089)}
+2025-02-09 21:23:50,307 - Environment: production, Metrics: {'accuracy': 0.48, 'precision': 0.48, 'recall': 0.48, 'f1_score': 0.48, 'roc_auc': 0.5232323232323232, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 50, 307807)}
+2025-02-09 21:23:55,321 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.45974235104669886, 'recall': 0.46, 'f1_score': 0.4591346153846153, 'roc_auc': 0.5232, 'timestamp': datetime.datetime(2025, 2, 9, 21, 23, 55, 321406)}
+2025-02-09 21:24:00,331 - Environment: production, Metrics: {'accuracy': 0.6, 'precision': 0.6239902080783354, 'recall': 0.6, 'f1_score': 0.6, 'roc_auc': 0.46838025295797636, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 0, 331802)}
+2025-02-09 21:24:05,342 - Environment: production, Metrics: {'accuracy': 0.53, 'precision': 0.533125, 'recall': 0.53, 'f1_score': 0.5302350235023502, 'roc_auc': 0.5379365716579688, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 5, 342228)}
+2025-02-09 21:24:10,357 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.46929292929292926, 'recall': 0.46, 'f1_score': 0.45999999999999985, 'roc_auc': 0.545050505050505, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 10, 357290)}
+2025-02-09 21:24:15,369 - Environment: production, Metrics: {'accuracy': 0.57, 'precision': 0.5707692307692308, 'recall': 0.57, 'f1_score': 0.5698709870987099, 'roc_auc': 0.4785914365746299, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 15, 369070)}
+2025-02-09 21:24:20,384 - Environment: production, Metrics: {'accuracy': 0.51, 'precision': 0.5100040016006403, 'recall': 0.51, 'f1_score': 0.5099509950995099, 'roc_auc': 0.42799999999999994, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 20, 384534)}
+2025-02-09 21:24:25,392 - Environment: production, Metrics: {'accuracy': 0.45, 'precision': 0.4820048309178743, 'recall': 0.45, 'f1_score': 0.45580343684051855, 'roc_auc': 0.623371164354771, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 25, 392353)}
+2025-02-09 21:24:30,402 - Environment: production, Metrics: {'accuracy': 0.46, 'precision': 0.46061019670814934, 'recall': 0.46, 'f1_score': 0.4595678271308523, 'roc_auc': 0.5310124049619849, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 30, 402672)}
+2025-02-09 21:24:35,414 - Environment: production, Metrics: {'accuracy': 0.41, 'precision': 0.4089613526570048, 'recall': 0.41, 'f1_score': 0.4091127819548872, 'roc_auc': 0.4893957583033214, 'timestamp': datetime.datetime(2025, 2, 9, 21, 24, 35, 414113)}

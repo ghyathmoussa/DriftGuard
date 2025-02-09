@@ -51,3 +51,23 @@ To install the required dependencies, run:
 
 ```sh
 pip install -r requirements.txt
+```
+
+## Usage
+
+Running the Drift Detection:
+
+To run the drift detection, use the `concept_drift.py` and `monitoring.py` scripts. These scripts simulate data and demonstrate how to use the drift detection and performance monitoring features.
+
+## Running the Visualization Dashboard
+
+To run the visualization dashboard, see the usage in `example.p`y script.
+
+```python src/visualization/example.py```
+
+![Performance_Metrics](assets/image01/png)
+
+![Feature Drift 1](assets/image02/png)
+
+![Feature Drift 2](assets/image03/png)
+
