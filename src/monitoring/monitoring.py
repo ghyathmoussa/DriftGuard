@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
+from src.utils.logger import log_metrics
 
 class PerformanceMonitor:
     def __init__(self):
@@ -52,6 +53,7 @@ class PerformanceMonitor:
         metrics = self.compute_metrics(y_true, y_pred, y_prob)
         metrics["timestamp"] = datetime.now()  # Add timestamp for tracking over time
         self.metrics_history[environment].append(metrics)
+        log_metrics(metrics, environment)
 
     def get_metrics_history(self, environment="production"):
         """

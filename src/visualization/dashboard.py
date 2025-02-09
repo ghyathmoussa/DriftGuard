@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 from threading import Thread
 import time
-from alerting.alerts import AlertSystem
+# from src.alerting.alerts import AlertSystem
 
 class VisualizationDashboard:
     def __init__(self, performance_monitor, drift_results=None, alert_system=None):

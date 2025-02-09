@@ -7,6 +7,7 @@ from scipy.spatial.distance import jensenshannon
 from scipy.stats import wasserstein_distance
 import matplotlib.pyplot as plt
 import seaborn as sns
+from utils.logger import log_drift
 
 # For Numerical Data
 
@@ -122,7 +123,7 @@ def detect_feature_drift(train_data, prod_data, threshold=0.05):
                 "drift_detected": detect_categorical_drift(train_data[feature], prod_data[feature], threshold),
                 "js_divergence": compute_js_divergence(train_data[feature], prod_data[feature])
             }
-    
+    log_drift(drift_results)
     return drift_results
 
 # Visualizing drift

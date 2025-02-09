@@ -1,5 +1,5 @@
  # Simulate performance monitoring data
-from monitoring.monitoring import PerformanceMonitor
+from src.monitoring.monitoring import PerformanceMonitor
 import numpy as np
 from dashboard import VisualizationDashboard
 
