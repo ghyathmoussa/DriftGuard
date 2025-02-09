@@ -71,3 +71,10 @@ To run the visualization dashboard, see the usage in `example.p`y script.
 
 ![Feature Drift 2](assets/image03.png)
 
+## Contact
+
+Feel free to contact me via:
+
+* Twitter: @ghyathmoussa11
+* LinkedIn: https://www.linkedin.com/in/ghyath-moussa-83834516b/
+* Email: gheathmousa@gmail.com
