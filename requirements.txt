@@ -1,0 +1,12 @@
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+alibi-detect
+evidently
+fastapi
+streamlit
+river
+dash
