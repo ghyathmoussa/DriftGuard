@@ -10,3 +10,11 @@ fastapi
 streamlit
 river
 dash
+transformers
+torch
+accelerate
+datasets
+evaluate
+nltk
+rouge_score
+sacrebleu
