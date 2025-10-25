@@ -1,5 +1,5 @@
 import numpy as np
-from river.drift import ADWIN, DDMS, PageHinkley
+from river.drift import ADWIN, KSWIN, PageHinkley
 
 class ConceptDriftDetector:
     def __init__(self, method="ADWIN"):
@@ -7,16 +7,16 @@ class ConceptDriftDetector:
         Initialize the concept drift detector.
         
         Args:
-            method (str): Drift detection method. Options: "ADWIN", "DDM", "PageHinkley".
+            method (str): Drift detection method. Options: "ADWIN", "KSWIN", "PageHinkley".
         """
         if method == "ADWIN":
             self.detector = ADWIN()
-        elif method == "DDM":
-            self.detector = DDM()
+        elif method == "KSWIN":
+            self.detector = KSWIN()
         elif method == "PageHinkley":
             self.detector = PageHinkley()
         else:
-            raise ValueError("Invalid method. Choose from 'ADWIN', 'DDM', 'PageHinkley'.")
+            raise ValueError("Invalid method. Choose from 'ADWIN', 'KSWIN', 'PageHinkley'.")
         
         self.method = method
 
@@ -42,7 +42,7 @@ class ConceptDriftDetector:
         """
         if self.method == "ADWIN":
             self.detector = ADWIN()
-        elif self.method == "DDM":
-            self.detector = DDM()
+        elif self.method == "KSWIN":
+            self.detector = KSWIN()
         elif self.method == "PageHinkley":
             self.detector = PageHinkley()

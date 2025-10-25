@@ -16,5 +16,6 @@ accelerate
 datasets
 evaluate
 nltk
-rouge_score
+rouge-score
 sacrebleu
+bert_score

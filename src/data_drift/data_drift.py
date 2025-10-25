@@ -7,7 +7,7 @@ from scipy.spatial.distance import jensenshannon
 from scipy.stats import wasserstein_distance
 import matplotlib.pyplot as plt
 import seaborn as sns
-from utils.logger import log_drift
+from src.utils.logger import log_drift
 
 # For Numerical Data
 

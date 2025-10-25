@@ -1,6 +1,5 @@
 from typing import Dict, List, Optional
 import numpy as np
-from datasets import load_metric
 from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 import evaluate
