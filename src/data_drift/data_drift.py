@@ -1,5 +1,11 @@
-# Drift Detection
+"""
+Data Drift Detection Module
 
+This module provides functions for detecting data drift between training and production
+data distributions using various statistical tests and distance metrics.
+"""
+
+from typing import Dict, Tuple, Union, Optional, Any
 import numpy as np
 import pandas as pd
 from scipy.stats import ks_2samp, chi2_contingency
@@ -9,22 +15,34 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from src.utils.logger import log_drift
 
-# For Numerical Data
 
-from scipy.stats import ks_2samp
-
-def detect_numerical_drift(train_data, prod_data, feature, threshold=0.05):
+def detect_numerical_drift(
+    train_data: pd.Series,
+    prod_data: pd.Series,
+    feature: str,
+    threshold: float = 0.05
+) -> Union[Tuple[bool, float, float], bool]:
     """
-    Detect drift in numerical features using the KS test.
+    Detect drift in numerical features using the Kolmogorov-Smirnov (KS) test.
+    
+    The KS test is a non-parametric test that compares two distributions
+    and returns a p-value indicating whether they are significantly different.
     
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
-        feature (str): Name of the feature being analyzed.
-        threshold (float): Significance level for drift detection.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
+        feature: Name of the feature being analyzed.
+        threshold: Significance level for drift detection (default: 0.05).
     
     Returns:
-        bool: True if drift is detected, False otherwise.
+        If drift is detected: Tuple of (True, p_value, ks_statistic)
+        If no drift detected: False
+    
+    Example:
+        >>> train = pd.Series([1, 2, 3, 4, 5])
+        >>> prod = pd.Series([10, 20, 30, 40, 50])
+        >>> detect_numerical_drift(train, prod, "age", threshold=0.05)
+        (True, 0.001, 0.95)
     """
     stat, p_value = ks_2samp(train_data, prod_data)
     if p_value < threshold:
@@ -35,20 +53,35 @@ def detect_numerical_drift(train_data, prod_data, feature, threshold=0.05):
         print(f"No drift detected in feature: {feature} (p-value: {p_value})")
         print(f"KS Statistic: {stat}")
         return False
-    
-# For categorical data
 
-def detect_categorical_drift(train_data, prod_data, feature, threshold=0.05):
+
+def detect_categorical_drift(
+    train_data: pd.Series,
+    prod_data: pd.Series,
+    feature: str,
+    threshold: float = 0.05
+) -> Union[Tuple[bool, float], bool]:
     """
     Detect drift in categorical features using the Chi-Square test.
     
+    The Chi-Square test evaluates whether the distribution of categorical
+    values has changed significantly between training and production data.
+    
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
-        threshold (float): Significance level for drift detection.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
+        feature: Name of the feature being analyzed.
+        threshold: Significance level for drift detection (default: 0.05).
     
     Returns:
-        bool: True if drift is detected, False otherwise.
+        If drift is detected: Tuple of (True, p_value)
+        If no drift detected: False
+    
+    Example:
+        >>> train = pd.Series(['A', 'B', 'A', 'C'])
+        >>> prod = pd.Series(['B', 'B', 'C', 'C'])
+        >>> detect_categorical_drift(train, prod, "category", threshold=0.05)
+        (True, 0.02)
     """
     # Create contingency table
     train_counts = train_data.value_counts().sort_index()
@@ -64,29 +97,54 @@ def detect_categorical_drift(train_data, prod_data, feature, threshold=0.05):
         print(f"No drift detected in feature: {feature} (p-value: {p_value})")
         return False
 
-def compute_wasserstein_distance(train_data, prod_data):
+def compute_wasserstein_distance(
+    train_data: pd.Series,
+    prod_data: pd.Series
+) -> float:
     """
-    Compute Wasserstein distance between two distributions.
+    Compute Wasserstein distance (Earth Mover's Distance) between two distributions.
+    
+    The Wasserstein distance measures the minimum amount of work needed to transform
+    one distribution into another. Lower values indicate more similar distributions.
     
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
     
     Returns:
-        float: Wasserstein distance.
+        Wasserstein distance between the two distributions.
+    
+    Example:
+        >>> train = pd.Series([1, 2, 3, 4, 5])
+        >>> prod = pd.Series([2, 3, 4, 5, 6])
+        >>> compute_wasserstein_distance(train, prod)
+        1.0
     """
     return wasserstein_distance(train_data, prod_data)
 
-def compute_js_divergence(train_data, prod_data):
+
+def compute_js_divergence(
+    train_data: pd.Series,
+    prod_data: pd.Series
+) -> float:
     """
     Compute Jensen-Shannon divergence between two distributions.
     
+    The Jensen-Shannon divergence is a symmetric measure of similarity between
+    two probability distributions. It ranges from 0 (identical) to 1 (completely different).
+    
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
     
     Returns:
-        float: Jensen-Shannon divergence.
+        Jensen-Shannon divergence between the two distributions.
+    
+    Example:
+        >>> train = pd.Series(['A', 'B', 'A', 'C'])
+        >>> prod = pd.Series(['A', 'A', 'B', 'C'])
+        >>> compute_js_divergence(train, prod)
+        0.15
     """
     # Normalize the distributions
     train_dist = train_data.value_counts(normalize=True).sort_index()
@@ -98,17 +156,33 @@ def compute_js_divergence(train_data, prod_data):
     # Compute JS divergence
     return jensenshannon(aligned_dist.iloc[:, 0], aligned_dist.iloc[:, 1])
 
-def detect_feature_drift(train_data, prod_data, threshold=0.05):
+def detect_feature_drift(
+    train_data: pd.DataFrame,
+    prod_data: pd.DataFrame,
+    threshold: float = 0.05
+) -> Dict[str, Dict[str, Any]]:
     """
     Detect drift for all features in a dataset.
     
+    This function automatically detects the data type of each feature and applies
+    the appropriate drift detection method (KS test for numerical, Chi-Square for categorical).
+    
     Args:
-        train_data (pd.DataFrame): Training data.
-        prod_data (pd.DataFrame): Production data.
-        threshold (float): Significance level for drift detection.
+        train_data: Training dataset containing all features.
+        prod_data: Production dataset containing all features.
+        threshold: Significance level for drift detection (default: 0.05).
     
     Returns:
-        dict: Dictionary with drift results for each feature.
+        Dictionary mapping feature names to their drift detection results.
+        Each result contains 'drift_detected' and either 'wasserstein_distance' 
+        (numerical) or 'js_divergence' (categorical).
+    
+    Example:
+        >>> train = pd.DataFrame({'age': [25, 30, 35], 'city': ['A', 'B', 'A']})
+        >>> prod = pd.DataFrame({'age': [50, 55, 60], 'city': ['C', 'C', 'B']})
+        >>> results = detect_feature_drift(train, prod)
+        >>> results['age']['drift_detected']
+        True
     """
     drift_results = {}
     
@@ -126,16 +200,30 @@ def detect_feature_drift(train_data, prod_data, threshold=0.05):
     log_drift(drift_results)
     return drift_results
 
-# Visualizing drift
 
-def plot_feature_distributions(train_data, prod_data, feature):
+def plot_feature_distributions(
+    train_data: pd.Series,
+    prod_data: pd.Series,
+    feature: str
+) -> None:
     """
     Plot distributions of a feature in training and production data.
     
+    Creates a histogram with KDE overlay comparing the distributions of
+    the same feature in training and production datasets.
+    
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
-        feature (str): Name of the feature.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
+        feature: Name of the feature to be displayed in the plot title.
+    
+    Returns:
+        None. Displays the plot using matplotlib.
+    
+    Example:
+        >>> train = pd.Series([1, 2, 3, 4, 5], name='age')
+        >>> prod = pd.Series([6, 7, 8, 9, 10], name='age')
+        >>> plot_feature_distributions(train, prod, 'age')
     """
     plt.figure(figsize=(10, 6))
     sns.histplot(train_data, label="Training Data", kde=True, color="blue")
@@ -147,16 +235,24 @@ def plot_feature_distributions(train_data, prod_data, feature):
     plt.show()
 
 
-def wasserstein_distance_metric(train_data, prod_data):
+def wasserstein_distance_metric(
+    train_data: pd.Series,
+    prod_data: pd.Series
+) -> float:
     """
     Compute Wasserstein distance between two distributions.
     
+    This is an alias for compute_wasserstein_distance() for backward compatibility.
+    
     Args:
-        train_data (pd.Series): Training data for the feature.
-        prod_data (pd.Series): Production data for the feature.
+        train_data: Training data for the feature.
+        prod_data: Production data for the feature.
     
     Returns:
-        float: Wasserstein distance.
+        Wasserstein distance between the two distributions.
+    
+    See Also:
+        compute_wasserstein_distance: The main implementation of this metric.
     """
     return wasserstein_distance(train_data, prod_data)
 
